@@ -13,17 +13,29 @@ import org.w3c.dom.Text;
 
 public class ActivityHitung extends AppCompatActivity {
 
-    private Button mButton;
+    Button mButton;
+     TextView inputSatu,inputDua;
+    private String cek1 = "";
+    private String cek2 = "";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mButton = (Button) findViewById(R.id.button1);
-        input1 = (TextView) findViewById(R.id.angka1);
-        input2 = (TextView) findViewById(R.id.angka2);
+        inputSatu = (TextView) findViewById(R.id.angka1);
+        inputDua = (TextView) findViewById(R.id.angka2);
 
+    }
 
+    public void klikHasil (View V){
+    cek1 = inputSatu.getText().toString();
+     cek2 = inputDua.getText().toString();
+
+     if((cek1.equalsIgnoreCase("")||(cek2.equalsIgnoreCase("")))){
+        
+     }
     }
 
 
