@@ -30,13 +30,13 @@ public class ActivityHitung extends AppCompatActivity {
     }
 
     public void klikHasil (View V){
-    cek1 = inputSatu.getText().toString();
-     cek2 = inputDua.getText().toString();
+        cek1 = inputSatu.getText().toString();
+        cek2 = inputDua.getText().toString();
 
-     if((cek1.equalsIgnoreCase("")||(cek2.equalsIgnoreCase("")))){
         
-     }
     }
+
+
 
 
 }
